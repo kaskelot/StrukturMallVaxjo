@@ -11,7 +11,7 @@ using VMS.TPS.Common.Model.Types;
 using static System.Net.Mime.MediaTypeNames;
 using StrukturMall;
 
-[assembly: AssemblyVersion("1.7.0.0")]
+[assembly: AssemblyVersion("1.7.0.26")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
 [assembly: AssemblyInformationalVersion("1.0")]
 [assembly: ESAPIScript(IsWriteable = true)]
@@ -24,7 +24,7 @@ namespace VMS.TPS
         {
             //System.Windows.Forms.Application.EnableVisualStyles();
             //System.Windows.Forms.Application.SetCompatibleTextRenderingDefault(false);
-            Program.Run(context.StructureSet, context.Patient);
+            Program.Run(context.StructureSet, context.Patient, context.CurrentUser);
         }
     }
 }

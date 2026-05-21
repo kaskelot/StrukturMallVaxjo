@@ -12,11 +12,11 @@ namespace StrukturMall
 {
     public class Program
     {
-        public static void Run(StructureSet strukturSet, Patient pat)
+        public static void Run(StructureSet strukturSet, Patient pat, User user)
         {
             if (strukturSet != null)
             {
-                MainForm main = new MainForm(strukturSet, pat);
+                MainForm main = new MainForm(strukturSet, pat, user);
                 main.ShowDialog();
                 //System.Windows.Forms.Application.Run(new MainForm(strukturSet, pat));
             }
