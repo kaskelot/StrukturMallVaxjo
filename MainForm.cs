@@ -11,7 +11,7 @@ using System.Windows.Forms;
 using System.Windows.Forms.VisualStyles;
 using VMS.TPS.Common.Model.API;
 
-namespace StrukturMall
+namespace AnpassaStrukturset
 {
     public partial class MainForm : Form
     {

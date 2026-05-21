@@ -7,7 +7,7 @@ using VMS.TPS.Common.Model.API;
 using System.Windows.Media;
 using System.Xml.Linq;
 
-namespace StrukturMall
+namespace AnpassaStrukturset
 {
     internal class StrukturManipulering
     {
@@ -81,7 +81,7 @@ namespace StrukturMall
         public StructureSet FindARTPlanStructureSet(Patient pat, StructureSet strSet, string valtTemplate, User user)
         {
             StructureSet dtDos = strSet.Copy();
-            string datum = dtDos.Image.CreationDateTime.Value.ToString("yyMMdd");
+            string dtID = "DTdos" + dtDos.Image.CreationDateTime.Value.ToString("yyMMdd");
 
             string nyttId = datum;
             int i = 1;

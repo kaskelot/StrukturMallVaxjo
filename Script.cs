@@ -9,7 +9,7 @@ using System.Windows.Forms;
 using VMS.TPS.Common.Model.API;
 using VMS.TPS.Common.Model.Types;
 using static System.Net.Mime.MediaTypeNames;
-using StrukturMall;
+using AnpassaStrukturset;
 
 [assembly: AssemblyVersion("1.7.0.26")]
 [assembly: AssemblyFileVersion("1.0.0.0")]

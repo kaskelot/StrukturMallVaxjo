@@ -8,7 +8,7 @@ using System.Windows.Forms;
 using VMS.TPS.Common.Model.API;
 using VMS.TPS.Common.Model.Types;
 
-namespace StrukturMall
+namespace AnpassaStrukturset
 {
     public class Program
     {
@@ -18,7 +18,6 @@ namespace StrukturMall
             {
                 MainForm main = new MainForm(strukturSet, pat, user);
                 main.ShowDialog();
-                //System.Windows.Forms.Application.Run(new MainForm(strukturSet, pat));
             }
             else
             {
